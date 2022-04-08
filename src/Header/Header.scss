@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400&family=Sansita+Swashed:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header div a p {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: right;
+    color: black;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    text-decoration: none;
+    left: 80%;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+// .menu-works {
+//     position: absolute;
+//     right: 400px;
+// }
+// .menu-blog {
+//     position: absolute;
+//     right: 250px;
+// }
+// .menu-contact {
+//     position: absolute;
+//     right: 50px;
+// }
